@@ -1,0 +1,7 @@
+site_name: Варна Мештастик
+site_url: https://mesh.varna.radio
+site_description: Мештастик мрежа във Варна
+site_author: Станислав Лечев
+theme:
+  name: dracula # material, readthedocs
+dev_addr: 127.0.0.1:8181
