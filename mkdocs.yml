@@ -5,3 +5,4 @@ site_author: Станислав Лечев
 theme:
   name: dracula # material, readthedocs
 dev_addr: 127.0.0.1:8181
+site_dir: dist/
