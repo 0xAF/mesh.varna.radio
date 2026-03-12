@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block styles %}
+{{ super() }}
+<style>
+    main .content {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .content article {
+        flex: 1 0 auto;
+    }
+
+    main .content footer {
+        margin-top: auto;
+        position: static !important;
+        left: auto !important;
+        right: auto !important;
+        width: 100% !important;
+        box-sizing: border-box;
+    }
+</style>
+{% endblock %}
+
+{% block footer %}
+<footer>
+    <div class="d-flex flex-column flex-sm-row flex-wrap justify-content-start align-items-start py-2 border-top drac-text-black drac-bg-cyan-green"
+        style="row-gap: 0.25rem; column-gap: 0.75rem;">
+        <div style="padding-left: 1%; padding-right: 1%; min-width: 0; max-width: 100%;">
+            <span class="footer-text" style="margin-left: 0.5rem; white-space: normal; overflow-wrap: anywhere; word-break: break-word;">
+                За допълнения и корекции
+            </span>
+            <a href="https://github.com/0xAF/mesh.varna.radio" target="_blank" rel="noopener"
+                class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+                GitHub: mesh.varna.radio
+            </a>
+        </div>
+    </div>
+</footer>
+{% endblock %}
